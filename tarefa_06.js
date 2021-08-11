@@ -3,9 +3,9 @@
 console.log("Item 06")
 
 let caro = 0
-let itemCaro = 0
-let codCaro = 0
-let departamentoCaro = 0
+let itemCaro = ""
+let codCaro = ""
+let departamentoCaro = ""
 
 for (const prod of listaProdutos) {
     if (prod.preco > caro) {
